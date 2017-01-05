@@ -11,6 +11,12 @@ namespace FirstConsoleApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello GitHub!");
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("Loop Number " + (i + 1));
+            }
+            Console.ReadKey();
         }
     }
 }
