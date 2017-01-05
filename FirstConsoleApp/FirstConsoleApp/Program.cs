@@ -12,6 +12,9 @@ namespace FirstConsoleApp
         {
             Console.WriteLine("Hello GitHub!");
 
+            Console.WriteLine("Also wanted to add this.");
+            Console.WriteLine("And this.");
+
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("Loop Number " + (i + 1));
